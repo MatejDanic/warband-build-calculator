@@ -1,0 +1,10 @@
+,Ironflesh,PowerStrike,PowerThrow,PowerDraw,Shield,WeaponMaster,Riding,HorseArchery,Athletics,Looting,Trainer,Tracking,Spotting,Path-finding,Tactics,WoundTreatment,Surgery,FirstAid,Engineer,InventoryManagement,Leadership,PrisonerManagement,Persuasion,Trade
+Noble (Male),0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Noble (Female),0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0
+Merchant,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,2
+Warrior,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+Hunter,0,0,0,2,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0
+Nomad (Male),0,0,0,1,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1
+Nomad (Female),0,0,0,0,0,0,2,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,1
+Thief,0,0,1,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Priest,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,1,0,0,1,0,2,0

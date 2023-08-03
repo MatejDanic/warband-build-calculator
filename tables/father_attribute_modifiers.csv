@@ -1,0 +1,10 @@
+,Strength,Agility,Intelligence,Charisma
+Noble (Male),0,0,1,2
+Noble (Female),0,0,1,2
+Merchant,0,0,2,1
+Warrior,1,1,0,1
+Hunter,1,2,0,0
+Nomad (Male),1,1,1,0
+Nomad (Female),1,1,1,0
+Thief,0,3,0,0
+Priest,2,0,0,2

@@ -1,0 +1,12 @@
+,Strength,Agility,Intelligence,Charisma
+Squire(Male),1,1,0,0
+Lady in Waiting(Female),0,0,1,2
+Troubadour,0,0,0,2
+Student,0,0,2,0
+Peddler,0,0,1,1
+Smith,2,0,0,0
+Poacher,1,1,0,0
+Bravo,1,0,1,0
+Mercenary,1,1,0,0
+Preacher,1,0,0,1
+Thief,0,2,0,0

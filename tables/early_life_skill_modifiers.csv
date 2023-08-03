@@ -1,0 +1,10 @@
+,Ironflesh,PowerStrike,PowerThrow,PowerDraw,Shield,WeaponMaster,Riding,HorseArchery,Athletics,Looting,Trainer,Tracking,Spotting,Path-finding,Tactics,WoundTreatment,Surgery,FirstAid,Engineer,InventoryManagement,Leadership,PrisonerManagement,Persuasion,Trade
+Page,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Apprentice,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,1
+Assistant,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,2
+Urchin,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+Steppe Child,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+Mummer,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Courtier,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Noble in Training,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,2,0,0,0
+Acolyte,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0

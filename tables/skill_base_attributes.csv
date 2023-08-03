@@ -1,0 +1,5 @@
+,Ironflesh,PowerStrike,PowerThrow,PowerDraw,Shield,WeaponMaster,Riding,HorseArchery,Athletics,Looting,Trainer,Tracking,Spotting,Path-finding,Tactics,WoundTreatment,Surgery,FirstAid,Engineer,InventoryManagement,Leadership,PrisonerManagement,Persuasion,Trade
+Strength,1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+Agility,0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+Intelligence,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0
+Charisma,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1

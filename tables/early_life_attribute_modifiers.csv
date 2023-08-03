@@ -1,0 +1,10 @@
+,Strength,Agility,Intelligence,Charisma
+Page,1,0,0,1
+Apprentice,1,0,1,0
+Assistant,0,0,1,1
+Urchin,0,1,1,0
+Steppe Child,1,1,0,0
+Mummer,0,1,0,1
+Courtier,0,0,0,2
+Noble in Training,0,0,2,0
+Acolyte,0,0,1,1

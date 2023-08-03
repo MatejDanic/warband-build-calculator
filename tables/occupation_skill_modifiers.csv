@@ -1,0 +1,12 @@
+,Ironflesh,PowerStrike,PowerThrow,PowerDraw,Shield,WeaponMaster,Riding,HorseArchery,Athletics,Looting,Trainer,Tracking,Spotting,Path-finding,Tactics,WoundTreatment,Surgery,FirstAid,Engineer,InventoryManagement,Leadership,PrisonerManagement,Persuasion,Trade
+Squire(Male),0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Lady in Waiting(Female),0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,2,0
+Troubadour,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,2,0
+Student,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,1,0
+Peddler,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,2
+Smith,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1
+Poacher,0,0,0,1,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+Bravo,0,1,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+Mercenary,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Preacher,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,1,0,2,0
+Thief,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,1,0

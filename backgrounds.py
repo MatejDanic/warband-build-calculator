@@ -1,8 +1,12 @@
-father = ['Noble (Male)', 'Noble (Female)' 'Merchant', 'Warrior', 'Hunter', 'Nomad (Male)', 'Nomad (Female)', 'Thief']
+genders = ['Male', 'Female']
 
-early_life = ['Page', 'Apprentice', 'Assistant', 'Urchin', 'Steppe Child', 'Mummer', 'Courtier', 'Noble in Training', 'Acolyte']
+fathers = ['Noble (Male)', 'Noble (Female)', 'Merchant', 'Warrior', 'Hunter', 'Nomad (Male)', 'Nomad (Female)', 'Thief', 'Priest']
 
-occupation = ['Squire (Male)', 'Lady in Waiting (Female)', 'Troubadour', 'Student', 'Peddler', 'Smith', 'Poacher', 'Bravo', 'Mercenary', 'Preacher', 'Thief']
+early_lives = ['Page', 'Apprentice', 'Assistant', 'Urchin', 'Steppe Child', 'Mummer', 'Courtier', 'Noble in Training', 'Acolyte']
 
-reason = ['Revenge', 'Loss', 'Wanderlust', 'Forced out', 'Money', 'Religious Fervor', 'Sense of Duty']
+occupations = ['Squire (Male)', 'Lady in Waiting (Female)', 'Troubadour', 'Student', 'Peddler', 'Smith', 'Poacher', 'Bravo', 'Mercenary', 'Preacher', 'Thief']
+
+reasons = ['Revenge', 'Loss', 'Wanderlust', 'Forced out', 'Money', 'Religious Fervor', 'Sense of Duty']
+
+backgrounds = {'genders': genders, 'fathers': fathers, 'early_lives': early_lives, 'occupations': occupations, 'reasons': reasons}
 

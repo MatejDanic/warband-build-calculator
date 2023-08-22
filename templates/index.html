@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Warband Build Calculator</title>
+    <link rel="stylesheet" href='/static/styles/index.css' />
+</head>
+<body>
+    <form action="/build" method="post">
+        <table>
+            <tr>
+                <td>
+                    <ul>
+                        <h3>
+                            <li>Gender:
+                                <select name="gender">
+                                    {% for gender in backgrounds.genders %}
+                                    <option value="{{loop.index0}}" {% if loop.index0 == build.gender %} selected {% endif %}>{{gender}}</option>
+                                    {% endfor %}
+                                </select>
+                            </li>
+                        </h3>
+                        <h3>
+                            <li>Father:
+                                <select name="father" >
+                                    {% for father in backgrounds.fathers %}
+                                    <option value="{{loop.index0}}" {% if loop.index0 == build.father %} selected {% endif %}>{{father}}</option>
+                                    {% endfor %}
+                                </select>
+                            </li>
+                        </h3>
+                        <h3>
+                            <li>Early Life:
+                                <select name="early_life" >
+                                    {% for early_life in backgrounds.early_lives %}
+                                    <option value="{{loop.index0}}" {% if loop.index0 == build.early_life %} selected {% endif %}>{{early_life}}</option>
+                                    {% endfor %}
+                                </select>
+                            </li>
+                        </h3>
+                        <h3>
+                            <li>Occupation:
+                                <select name="occupation" >
+                                    {% for occupation in backgrounds.occupations %}
+                                    <option value="{{loop.index0}}" {% if loop.index0 == build.occupation %} selected {% endif %}>{{occupation}}</option>
+                                    {% endfor %}
+                                </select>
+                            </li>
+                        </h3>
+                        <h3>
+                            <li>Reason:
+                                <select name="reason" >
+                                    {% for reason in backgrounds.reasons %}
+                                    <option value="{{loop.index0}}" {% if loop.index0 == build.reason %} selected {% endif %}>{{reason}}</option>
+                                    {% endfor %}
+                                </select>
+                            </li>
+                        </h3>
+                        <h3>
+                    </ul>
+                    <hr>
+                    <h1>Attributes</h2>
+                    <ul>
+                        {% for attribute in attributes %}
+                        <li><h3>{{attribute}}<input type="number" name="{{attribute}}" value="{{build.get_total_attribute_values()[loop.index0]}}"></input></h3></li>
+                        {% endfor %}
+                    </ul>
+                    <h2>Attribute Points: {{build.get_free_attribute_points()}}</h2>
+                </td>
+                <td>
+                    <h2>Name: <input name="name" value="{{build.name}}" placeholder="Enter name here..."  required></input></h2>
+                    <h2>Level: <input type="number" name="level" value="{{build.level}}"  required></input></h2>
+                    <hr>
+                    <h1>Skills</h1>
+                    <ul>
+                        {% for skill in skills %}
+                        <li>{{skill}}<input type="number" name="{{skill}}" value="{{build.get_total_skill_values()[loop.index0]}}"></input></li>
+                        {% endfor %}    
+                    </ul>
+                    <h2>Skill Points: {{build.get_free_skill_points()}}</h2> 
+                </td>
+                <td>
+                    <input type="submit" value="Submit">
+                    <hr>
+                    <h1>Proficiencies</h1>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

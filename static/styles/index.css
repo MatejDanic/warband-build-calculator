@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    background-image: url('/static/images/background.png');
+    color: #3D2C18;
+    font-weight: bold;
+	font-family: Papyrus, fantasy; 
+}
+
+input, select {
+    float: right;
+    clear: both;
+}
+
+input[type="number"] {
+    width: 2.5em;
+}
+
+select {
+    width: 10em;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    margin: 0;
+}
+
+
+table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+td {
+    padding-left: 50px;
+    padding-right: 50px;
+    border-right: 1px solid #3D2C18;
+
+}
+
+.attributes {
+    color: blue;
+}
+
+.skills {
+    color: blue;
+}
+
+.profficiencies {
+    color: blue;
+}
+
